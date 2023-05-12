@@ -1,6 +1,6 @@
 ### Freecodecamp youtube tutorials
 
-Is a non-profit organization[3] that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.
+Is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone.
 
 ---
 - [x] Bash Scripting Tutorial for Beginners. [Link](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
