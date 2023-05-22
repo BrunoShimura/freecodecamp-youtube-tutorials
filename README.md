@@ -17,6 +17,10 @@ Learn PyTorch for deep learning in this comprehensive course for beginners. PyTo
 Daniel Bourke developed this course.
 
 ---
-- [ ] Docker Containers and Kubernetes Fundamentals – Full Hands-On Course
+- [ ] Full-Stack Next.js, TypeScript, and AWS Course – Code a Quote Generator [Link](https://www.youtube.com/watch?v=FRmCxj9K7II)
+
+Learn how to use Next.js, TypeScript, and AWS Amplify to build a full stack inspirational quote generator app. You'll learn to use the ZenQuotes' API for fetching quotes and then you'll deep into state management, hooks, debugging, NoSQL database modeling, and much more.
+
+---
 - [ ] PyTorch for Deep Learning & Machine Learning – Full Course
 - [ ] Harvard CS50 – Full Computer Science University Course
