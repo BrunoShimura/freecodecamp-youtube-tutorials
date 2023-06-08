@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1686183486 source:/home/bshimura/Documents/freecodecamp-youtube-tutorials/c-programming-tutorial-for-beginners/Giraffe/main.c
+	<stdio.h>
+	<stdlib.h>
+
