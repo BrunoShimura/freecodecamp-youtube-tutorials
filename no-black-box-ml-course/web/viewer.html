@@ -30,20 +30,30 @@
                 height: 400,
                 hAxis: {title: featureNames[0]},
                 vAxis: {title: featureNames[1]},
-                legend: {position: 'none'}
+                legend: {position: 'none'},
+                explorer: {
+                    maxZoomIn: 0.01,
+                    actions: ['dragToZoom', 'rightClickToReset']
+                }
             };
  
-            google.charts.load('current', {'packages': ['corechart']});
+            google.charts.load('current', {'packages': ['corechart', 'scatter']});
 
             google.charts.setOnLoadCallback(() => {
                 const data = new google.visualization.DataTable();
                 data.addColumn('number', featureNames[0]);
                 data.addColumn('number', featureNames[1]);
-                data.addRows(samples.map(s => s.point));
-
-                var chart = new google.visualization.ScatterChart(chartContainer);
-                //var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+                data.addColumn({'type': 'string', 'role': 'style'});
+                data.addRows(samples.map(s => [
+                    ...s.point,
+                    utils.styles[s.label]
+                ]));
+/*
+                const chart = new google.visualization.ScatterChart(chartContainer);
                 chart.draw(data, options);
+*/
+                const chart = new google.charts.Scatter(chartContainer);
+                chart.draw(data, google.charts.Scatter.convertOptions(options));
             });
         </script>
     </body>

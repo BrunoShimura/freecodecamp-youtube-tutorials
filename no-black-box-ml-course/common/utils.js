@@ -4,6 +4,17 @@ utils.formatPercent = (n) => {
     return (n * 100).toFixed(2) + "%";
 }
 
+utils.styles = {
+    car: 'gray',
+    fish: 'red',
+    house: 'yellow',
+    tree: 'green',
+    bicycle: 'cyan',
+    guitar: 'blue',
+    pencil: 'magenta',
+    clock: 'lightgray'
+}
+
 utils.printProgress = (count, max) => {
     process.stdout.clearLine();
     process.stdout.cursorTo(0);
