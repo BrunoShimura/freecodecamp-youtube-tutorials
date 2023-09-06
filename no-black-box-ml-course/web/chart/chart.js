@@ -259,6 +259,7 @@ class Chart{
             point
          );
          graphics.drawPoint(ctx, pixelLoc, "rgb(255, 255, 255, 0.7", 1000000);
+         ctx.strokeStyle = "gray";
          for(const sample of this.nearestSamples){
             const point = math.remapPoint(
                this.dataBounds,
