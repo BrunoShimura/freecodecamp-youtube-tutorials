@@ -26,9 +26,14 @@ Giraffe Academy.
 Learn the basics of computer science from Harvard University. This is CS50, an introduction to the intellectual enterprises of computer science and the art of programming.
 
 ---
-- [ ] Full-Stack Next.js, TypeScript, and AWS Course – Code a Quote Generator [Link](https://www.youtube.com/watch?v=FRmCxj9K7II)
+- [x] No Black Box Machine Learning Course – Learn Without Libraries [Link](https://www.youtube.com/watch?v=vDDjtwQDw2k)
 
-Learn how to use Next.js, TypeScript, and AWS Amplify to build a full stack inspirational quote generator app. You'll learn to use the ZenQuotes' API for fetching quotes and then you'll deep into state management, hooks, debugging, NoSQL database modeling, and much more.
+Deep understanding of machine learning systems by coding without relying on libraries.
+
+---
+- [ ] Machine Learning & Neural Networks without Libraries – No Black Box Course [Link](https://www.youtube.com/watch?v=3wwiOSxDAmg)
+
+The goal in this course is to build a web app that learns to recognize drawings. This is phase 2, where we increase the accuracy of the method we developed in Phase 1. We do this by implementing more sophisticated features and using other classification methods (like the Neural Network). In Phase 2 we also learn about Data Cleaning, Confusion Matrices, Geometry and the difference between Vector and Raster data (pixels).
 
 ---
 - [ ] PyTorch for Deep Learning & Machine Learning – Full Course
