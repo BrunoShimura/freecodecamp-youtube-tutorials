@@ -6,7 +6,16 @@
       <link rel="stylesheet" href="styles.css" />
    </head>
    <body>
-      <h1>Data Viewer</h1>
+      <h1>Data Viewer
+         <span class="infoButton">
+            ⓘ
+            <span class="tooltipText">
+               You can Flag samples using Ctrl + Click.
+               <br>
+               Then use the Console (flaggedSamples variable).
+            </span>
+         </span>
+      </h1>
       <div id="inputContainer">
          <div id="predictedLabelContainer"></div>
       </div>
@@ -28,6 +37,7 @@
 
       <script src="js/display.js"></script>
       <script src="js/sketchPad.js"></script>
+      <script src="js/dataCleaner.js"></script>
 
       <script src="./chart/graphics.js"></script>
       <script src="./chart/math.js"></script>
@@ -94,7 +104,7 @@
 
          const chart = new Chart(
             chartContainer,
-            trainingSamples,
+            testingSamples,
             options,
             handleClick
          );
