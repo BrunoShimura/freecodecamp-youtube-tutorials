@@ -3,6 +3,8 @@ const utils = {};
 utils.flaggedUsers = [1663882102141, 1663900040545, 1664485938220, 1664485938220, 1682255271235];
 utils.flaggedSamples = [69,217,354,366,381,379,382,385,438,439,440,437,436,435,434,433,568,648,893,901];
 
+utils.classes = ["car", "fish", "house", "tree", "bicycle", "guitar", "pencil", "clock"]
+
 utils.styles = {
    car: { color: "gray", text: "🚗" },
    fish: { color: "red", text: "🐠" },
