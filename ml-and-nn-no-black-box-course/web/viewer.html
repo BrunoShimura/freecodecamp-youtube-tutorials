@@ -7,8 +7,7 @@
    </head>
    <body>
       <h1>Data Viewer
-         <span class="infoButton">
-            ⓘ
+         <span class="infoButton">ⓘ
             <span class="tooltipText">
                You can Flag samples using Ctrl + Click.
                <br>
@@ -137,7 +136,8 @@
             options
          );
 
-         const outputLabels = Object.values(utils.styles).map((s) => s.image);
+         const outputLabels = Object.values(utils.styles)
+            .map((s) => s.image);
          Visualizer.drawNetwork(networkCtx, mlp.network, outputLabels);
 
          // Initializing the Sketch Pad
@@ -148,7 +148,8 @@
 
          function onDrawingUpdate(paths) {
             const functions = featureFunctions.inUse.map((f) => f.function);
-            point = functions.map((f) => f(paths));
+            //point = functions.map((f) => f(paths));
+            point = functions[0](paths);
             utils.normalizePoints([point], minMax);
             // const { label, nearestSamples } = kNN.predict(point);
             const { label, nearestSamples } = mlp.predict(point);

@@ -1,7 +1,7 @@
 from functions import readFeatureFile
 from sklearn.neural_network import MLPClassifier
 
-hidden = (10)
+hidden = (100, 100)
 mlp = MLPClassifier(
    hidden,
    max_iter=10000,
@@ -9,16 +9,19 @@ mlp = MLPClassifier(
    activation='tanh'
 )
 
-X,y=readFeatureFile("../data/dataset/training.csv")
+X, y = readFeatureFile("../data/dataset/training.csv")
 
-mlp.fit(X,y)
+mlp.fit(X, y)
 
-X,y=readFeatureFile("../data/dataset/testing.csv")
+X, y = readFeatureFile("../data/dataset/testing.csv")
 
-accuracy=mlp.score(X,y)
-print("Accuracy:",accuracy)
+accuracy = mlp.score(X, y)
+print("Accuracy:", accuracy)
 
-classes = ["car","fish","house","tree","bicycle","guitar","pencil","clock"]
+classes = [
+    "car", "fish", "house", "tree",
+    "bicycle", "guitar", "pencil", "clock"
+]
 
 jsonObj = {
     "neuronCounts": [len(X[0]), hidden, len(classes)],
