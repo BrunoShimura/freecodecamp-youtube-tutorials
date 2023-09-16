@@ -31,7 +31,7 @@ Learn the basics of computer science from Harvard University. This is CS50, an i
 Deep understanding of machine learning systems by coding without relying on libraries.
 
 ---
-- [ ] Machine Learning & Neural Networks without Libraries – No Black Box Course [Link](https://www.youtube.com/watch?v=3wwiOSxDAmg)
+- [x] Machine Learning & Neural Networks without Libraries – No Black Box Course [Link](https://www.youtube.com/watch?v=3wwiOSxDAmg)
 
 The goal in this course is to build a web app that learns to recognize drawings. This is phase 2, where we increase the accuracy of the method we developed in Phase 1. We do this by implementing more sophisticated features and using other classification methods (like the Neural Network). In Phase 2 we also learn about Data Cleaning, Confusion Matrices, Geometry and the difference between Vector and Raster data (pixels).
 
