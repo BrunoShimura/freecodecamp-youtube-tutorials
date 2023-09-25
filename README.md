@@ -36,7 +36,7 @@ Deep understanding of machine learning systems by coding without relying on libr
 The goal in this course is to build a web app that learns to recognize drawings. This is phase 2, where we increase the accuracy of the method we developed in Phase 1. We do this by implementing more sophisticated features and using other classification methods (like the Neural Network). In Phase 2 we also learn about Data Cleaning, Confusion Matrices, Geometry and the difference between Vector and Raster data (pixels).
 
 ---
-- [ ] Machine Learning for Everybody – Full Course [Link](https://www.youtube.com/watch?v=i_LwzRVP7bg)
+- [x] Machine Learning for Everybody – Full Course [Link](https://www.youtube.com/watch?v=i_LwzRVP7bg)
 
 Learn Machine Learning in a way that is accessible to absolute beginners. You will learn the basics of Machine Learning and how to use TensorFlow to implement many different concepts.
 
